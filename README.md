@@ -5,7 +5,7 @@ Uses this neat example: https://github.com/turbopixel/deye-inverter-status.
 
 The goal is to write a log into a mySQL-Database for local statistics. I've used a Raspberry Pi 2W and a secondary WiFi USB-Adapter 
 to share the datas in my local network. 
-If you want to visualize the logged data, a Apache WEB-Sever may be a good choice. Be warned: in this case there are two access-points at the
+If you want to visualize the logged data, a Apache WEB-Server may be a good choice. Be warned: in this case there are two access-points at the
 Raspberry Pi open, block all unused ports and deactivate SSH ! - It's also recommended to use a card with a fresh installation or backup your 
 existing Raspian.
 We begin:

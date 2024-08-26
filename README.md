@@ -11,24 +11,33 @@ existing Raspian.
 We begin:
 
 sudo apt-get update
+
 sudo apt install mariadb-server
+
 sudo mysql_secure_installation
+
 ... do your setups
 
 PHP8.2
 ------
 sudo wget -qO /etc/apt/trusted.gpg.d/php.gpg https://packages.sury.org/php/apt.gpg
+
 sudo echo "deb https://packages.sury.org/php/ $(lsb_release -sc) main" | sudo tee /etc/apt/sources.list.d/php.list
+
 sudo apt update && sudo apt upgrade -y
+
 ... this takes almost a while
+
 php -v
 
 mysql -u yourusername -p
+
 ... enter your password
 
 create the user, database and table
 
 sudo nano /etc/crontab
+
 ... create a CronJob for the logger-script
 
 

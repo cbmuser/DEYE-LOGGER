@@ -18,6 +18,7 @@ if ($result = $mysqli->query($query)) {
     while ($row = $result->fetch_assoc()) { $id = $row['id']; }
 }
 // convert and write values to database
+if (!isset($id)) {$id =0;}
 $id = intval($id); 
 $id++;
 $timestamp = time();

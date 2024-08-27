@@ -38,7 +38,7 @@ php -v
 
 create the user, database and table
 
-`sudo nano /etc/crontab`
+`crontab -e`
 
 ... create a CronJob for the logger-script
 

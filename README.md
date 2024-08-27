@@ -19,9 +19,13 @@ We begin:
 
 ... do your setups
 
+<<<<<<< Updated upstream
 PHP8.2, MySQL and CronJob
 -------------------------
  `sudo wget -qO /etc/apt/trusted.gpg.d/php.gpg https://packages.sury.org/php/apt.gpg`
+=======
+sudo wget -qO /etc/apt/trusted.gpg.d/php.gpg https://packages.sury.org/php/apt.gpg
+>>>>>>> Stashed changes
 
  `sudo echo "deb https://packages.sury.org/php/ $(lsb_release -sc) main" | sudo tee /etc/apt/sources.list.d/php.list`
 

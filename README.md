@@ -43,7 +43,7 @@ create the user, database and table
 
 `crontab -e`
 
-... create a CronJob for the logger-script
+... create a CronJob for the logger-script, f.e. `10,20,30,40,50,00 	7-21 	* 	* 	* 	{path_to_your_logger_script}`
 
 
 

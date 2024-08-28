@@ -17,9 +17,12 @@ $query="select * from $dbtab where timestamp >= $start and timestamp <= $end and
 if ($result = $mysqli->query($query)) {
     while ($row = $result->fetch_assoc()) { $all[] = $row; }
 }
+$mysqli->close();
+
+// if you want the stat between 00:00 - 07:00 (CET) build f.e. a file-cache 
 if (empty($all)) {  echo "<span style=\"font-size:22px;margin-left:10px;color:#fafafa;font-weight:bold;font-face:mono-space\">No data yet - good night !</span>";
 	                die(); }
-$mysqli->close();
+
 
 $i = 0;
 $j = (count($all));

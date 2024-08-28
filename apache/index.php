@@ -21,7 +21,6 @@ if (empty($all)) {  echo "<span style=\"font-size:22px;margin-left:10px;color:#f
 	                die(); }
 $mysqli->close();
 
-$peak = array("");
 $i = 0;
 $j = (count($all));
 

@@ -4,6 +4,6 @@
     <title>daily stats</title>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="main.css" media="screen"/>  
-  <head>
+  </head>
 <body>
 <p>&#127774; <span class="sun" >Daily Statistics</span></p>

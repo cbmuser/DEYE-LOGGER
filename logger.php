@@ -23,7 +23,7 @@ $id = intval($id);
 $id++;
 $timestamp = time();
 $peak  = intval($resultset[5]["content"]); 
-$kwatt = floatval($resultset[6]["content"]); 
+$kwatt = floatval($resultset[7]["content"]); 
 $alarm = intval($resultset[8]["content"]);
 $sql= "insert into $dbtab (id,peak,timestamp,kwatt,alarm) VALUES ($id,$peak,$timestamp,$kwatt,$alarm)";
 $mysqli->query($sql);
